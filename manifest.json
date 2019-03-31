@@ -1,8 +1,8 @@
 {
     "name": "Exemplo PWA",
     "short_name": "ExemploPWA",
-    "theme_color": "#771b00",
-    "background_color": "#771b00",
+    "theme_color": "#236d5b",
+    "background_color": "#236d5b",
     "display": "standalone",
     "scope": "/exemplo-pwa/",
     "start_url": "/exemplo-pwa/?utm_source=homescreen",
@@ -52,10 +52,10 @@
         "density": "4.0"
       },
       {
-        "src": "https://ferronicardoso.github.io/exemplo-pwa/assets/icons/favicon.ico",
-        "sizes": "256x256",
+        "src": "https://ferronicardoso.github.io/exemplo-pwa/assets/icons/android-icon-512x512.png",
+        "sizes": "512x512",
         "type": "image\/png",
-        "density": "1.0"
+        "density": "4.0"
       }
     ]
   }
