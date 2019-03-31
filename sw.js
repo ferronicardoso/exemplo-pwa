@@ -7,14 +7,14 @@ this.addEventListener("install", event => {
         caches.open(staticCacheName)
             .then(cache => {
                 return cache.addAll([
-                    '/offline',
-                    '/assets/icons/icon-144x144.png',
-                    '/assets/icons/icon-192x192.png',
-                    '/assets/icons/icon-256x256.png',
-                    '/assets/icons/icon-36x36.png',
-                    '/assets/icons/icon-48x48.png',
-                    '/assets/icons/icon-72x72.png',
-                    '/assets/icons/icon-96x96.png'
+                    'offline',
+                    'assets/icons/icon-144x144.png',
+                    'assets/icons/icon-192x192.png',
+                    'assets/icons/icon-256x256.png',
+                    'assets/icons/icon-36x36.png',
+                    'assets/icons/icon-48x48.png',
+                    'assets/icons/icon-72x72.png',
+                    'assets/icons/icon-96x96.png'
                 ]);
             })
     )
