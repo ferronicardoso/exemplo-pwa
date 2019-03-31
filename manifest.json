@@ -1,11 +1,11 @@
 {
     "name": "Exemplo PWA",
     "short_name": "ExemploPWA",
-    "theme_color": "#535e4e",
-    "background_color": "#535e4e",
+    "theme_color": "#771b00",
+    "background_color": "#771b00",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/?utm_source=homescreen",
+    "scope": "/exemplo-pwa/",
+    "start_url": "/exemplo-pwa/?utm_source=homescreen",
     "lang": "pt-BR",
     "orientation": "any",
     "icons": [
