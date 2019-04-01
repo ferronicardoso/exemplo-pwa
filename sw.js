@@ -4,6 +4,7 @@ self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       return cache.addAll([
+        '/css/default.cs',
         'assets/icons/android-icon-512x512.png',
         'assets/icons/android-icon-144x144.png',
         'assets/icons/android-icon-192x192.png',
